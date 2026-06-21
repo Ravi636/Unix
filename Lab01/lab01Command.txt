@@ -1,0 +1,80 @@
+1.  Command practice 
+
+a)  date 
+Display the current time in the given FORMAT, or set the system date.
+
+Show current time in the system
+
+b)  who 
+Print information about users who are currently logged in.
+
+Shows User's info
+
+c)  whoami 
+Print the user name associated with the current effective user ID.  Same as id -un.
+
+Shows name of the user linked to currently used ID
+
+d)  who am i 
+Print information about users who are currently logged in.
+
+Shows User's info
+
+e)  pwd 
+Print the full filename of the current working directory.
+
+Shows the address of the current directory
+
+f)  cd 
+Change the current directory to dir.  The variable HOME is the default dir. The variable CDPATH defines the  search  path  for  the  directory  containing  dir.
+
+Changes current location to a different directory
+
+g)  mkdir 
+Create the DIRECTORY(ies), if they do not already exist.
+
+Makes a new directory
+
+h)  rmdir
+Remove the DIRECTORY(ies), if they are empty.
+
+Removes directory if its empty
+
+i)  rm 
+This  manual page documents the GNU version of rm.  rm removes each specified file. By default, it does not remove directories.
+
+Removes a file from current directory
+
+j)  cp 
+Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.
+
+Copy a file to a directory
+
+k)  mv 
+Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.
+
+Rename a file or move it to a directory
+
+l)  ls (-l -g) 
+List  information  about  the  FILEs  (the current directory by default).  Sort entries
+alphabetically if none of -cftuvSUX nor --sort is specified.
+-l     use a long listing format
+-g     like -l, but do not list owner
+
+Shows all the files in current directory
+
+m)  cat 
+Concatenate FILE(s), or standard input, to standard output.
+
+Copy a file
+
+n)  more 
+more  is  a  filter  for  paging through text one screenful at a time.
+
+Allows user to read a file one page at a time
+
+o)  less 
+Less  is  a program similar to more (1), but which allows backward movement in the file
+as well as forward movement.
+
+Allows user to read a file one page at a time and also allows them to move back a page

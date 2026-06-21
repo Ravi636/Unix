@@ -1,0 +1,48 @@
+What do the following commands do? 
+a) date 
+Shows current date and time
+b) touch 
+Creates a new file in the file system
+c) wc  
+Used to count the number of lines, words, and characters in a file
+d) What is the meaning of each output of the command ‘wc’? 
+Hint: Use manpage if you are unsure. 
+Lines: This shows the number of lines in the file.
+
+Words: This shows the number of words in the file.
+
+Characters: This shows the number of characters in the file.
+
+ 
+Write down the commands that can do the following tasks: 
+a) Find out how many lines are there in the output of ‘man –k read’ 
+Hint: ‘wc’ and pipeline (|) 
+man -k read | wc -l
+ 
+b) Find out how many words are there in the file ‘dirent.h’ 
+Hint 1: The file is located at /usr/include/dirent.h 
+Hint 2: Use ‘cat’ (or ‘more’, ‘less’) and pipeline to ‘wc’ 
+ cat /usr/include/dirent.h | wc -w
+
+c) Change the mode (the permission of a file) 
+Hint: Search the manual for “change mode” 
+chmod 644 filename.txt
+
+
+a) In struct stat, the variable that contains the file size is st_size. What is the variable that 
+contains the file permission (protection)? 
+st_mode 
+
+b) The flag defined for the st_mode field for a ‘directory’ is S_IFDIR. What is its bitmask 
+value? 
+In Binary: 0040000
+In Octal: 040000
+ 
+c) What is the bit mask to check for “owner has read permission”? 
+In Binary: 00400
+In Octal: 040
+ 
+d) What is the bit mask to check if a file has all the following permissions 
+owner can read, write; group can read only; others cannot read/write/execute. 
+In Binary: 1100 00000
+In Octal: 640

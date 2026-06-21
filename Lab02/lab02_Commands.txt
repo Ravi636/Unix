@@ -1,0 +1,31 @@
+What do the following commands do?  
+a) which
+Prints the full path of an file
+b) last
+Shows all users logged in since the file was made
+c) ping
+It's used to check network connection
+d) df
+Shows avaiable disk space on the file system
+e) du
+Displays disk usage info
+f) chmod
+Allows us to change permissions for a file
+g) kill
+Sends signal to a process
+h) pkill
+Location of the process 
+i) dd
+Allows us to copay a file from one source to another
+j) grep 
+Searches for regular expressions
+k) ifconfig
+Shows the configuration for a netowrk interface
+l) man -k
+Search the description and for an expression
+m) ps -ef
+List of every process on the system
+n) sed
+Used to edit on text from a file
+o) diff
+Compares files line by line 
